@@ -1,5 +1,5 @@
-if(CONFIG_HAS_HERCULES_HAL)
+if(CONFIG_SOC_FAMILY_TIHERCULES)
 
-zephyr_include_directories(.)
+zephyr_include_directories(include)
 
 endif()
